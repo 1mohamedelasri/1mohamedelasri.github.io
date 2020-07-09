@@ -53,127 +53,43 @@ Les termes suivants sont utilisés lors de la définition des plages:
 *   **Object Class Specific** - Une plage de valeurs dont la signification est définie par une ObjectClass. Cette plage s'applique aux définitions de code de service
 
 **Class ID Ranges:**
-<table>
-  <tr>
-   <td><strong>INTERVAL<strong>
-   <td>
-   <td><strong>UTILISATION<strong>
-   <td>
-  <tr>
-  <tr>
-   <td>0x00 - 0x63
-   <td>
-   <td>CIP Common
-   <td>
-  <tr>
-  <tr>
-   <td>0x64 - 0xC7
-   <td>
-   <td>Vendor Specific
-   <td>
-  <tr>
-  <tr>
-   <td>0xC8 - 0xFF
-   <td>
-   <td>Reserved by ODVACI for future use
-   <td>
-  <tr>
-  <tr>
-   <td>0xF0 - 0x2FF
-   <td>
-   <td>CIP Common
-   <td>
-  <tr>
-  <tr>
-   <td>0x300 - 0x4FF
-   <td>
-   <td>Vendor specific
-   <td>
-  <tr>
-  <tr>
-   <td>0x500 - 0xFFFF
-   <td>
-   <td>Reserved by ODVACI for future use
-   <td>
-  <tr>
-<table>
+
+|       INTERVAL   |        UTILISATION                  |
+|------------------|-------------------------------------|
+|                  |                                     |
+|  0x00 \- 0x63    |  CIP Common                         |
+|  0x64 \- 0xC7    |  Vendor Specific                    |
+|  0xC8 \- 0xFF    |  Reserved by ODVA/CI for future use |
+|  0xF0 \- 0x2FF   |  CIP Common                         |
+|  0x300 \- 0x4FF  |  Vendor specific                    |
+|  0x500 \- 0xFFFF |  Reserved by ODVA/CI for future use |
+
 
 
 **Service Code Ranges:**
-<table>
-  <tr>
-   <td><strong>INTERVAL<strong>
-   <td>
-   <td><strong>UTILISATION<strong>
-   <td>
-  <tr>
-  <tr>
-   <td>0x00 - 0x31
-   <td>
-   <td>CIP Common - referred to cip common services
-   <td>
-  <tr>
-  <tr>
-   <td>0x32 - 0x4A
-   <td>
-   <td>Vendor Specific
-   <td>
-  <tr>
-  <tr>
-   <td>0x4B - 0x63
-   <td>
-   <td>Object Class Specific
-   <td>
-  <tr>
-  <tr>
-   <td>0x64 - 0x7F
-   <td>
-   <td>Reserved by ODVACI for future use
-   <td>
-  <tr>
-  <tr>
-   <td>0x80 - 0xFF
-   <td>
-   <td>Invalid  Not used
-   <td>
-  <tr>
-<table>
+|   INTERVAL       |
+|------------------|----------------------------------------------------|
+|0x00 \- 0x31      |  CIP Common - referred to cip common services      |    
+|0x32 \- 0x4A      |  Vendor Specific                                   |
+|0x4B \- 0x63      |  Object Class Specific                             |
+|0x64 \- 0x7F      |  Reserved by ODVA/CI for future use                |
+|0x80 \- 0xFF      |  Invalid / Not used                                |
 
 
 **Attribute ID Ranges:**
-<table>
-  <tr>
-   <td><strong>INTERVAL<strong>
-   <td>
-   <td><strong>UTILISATION<strong>
-   <td>
-  <tr>
-  <tr>
-   <td>0x00 - 0x63
-   <td>
-   <td>CIP Common - 
-   <td>
-  <tr>
-  <tr>
-   <td>0x64 - 0xC7
-   <td>
-   <td>Vendor Specific
-   <td>
-  <tr>
-  <tr>
-   <td>0xC8 - 0xFF
-   <td>
-   <td>Reserved by ODVACI for future use
-   <td>
-  <tr>
-<table>
+
+|INTERVAL||UTILISATION||
+|0x00 - 0x63||CIP Common -||
+|0x64 - 0xC7||Vendor Specific||
+|0xC8 - 0xFF||Reserved by ODVACI for future use||
+
 
 
 ## **MESSAGING PROTOCOL :**
 
 Une connexion CIP fournit un chemin de communication entre plusieurs points d'extrémité. Les points de terminaison d'une connexion sont des applications qui doivent partager des données. Les transmissions associées à une connexion particulière reçoivent une valeur d'identification lorsqu'une connexion est établie. Cette valeur d'identification est appelée l'ID de connexion (CID). 
 
-![alt_text](pages/uploads/imagesmessagingProtocol.png "Messaging Protocol")
+![alt_text](pages/uploads/images/messagingProtocol.png "Messaging Protocol")
  
 **Connected Objects** modélise les caractéristiques de communication d'une relation particulière Application-to-Application (s). Le terme point de terminaison fait référence à l'une des entités communicantes impliquées dans une connexion.  
  
@@ -198,11 +114,11 @@ La messagerie explicite fournit les moyens par lesquels les fonctions typiques o
  Un Explicit Message se compose d'un ID de connexion et des informations de protocole de messagerie associées. 
 
 
-![alt_text](pages/uploads/imagesexpclicitConnection.png "Explicit Connection")
+![alt_text](pages/uploads/images/expclicitConnection.png "Explicit Connection")
  
 
 
-![alt_text](pages/uploads/imagesexplicitVSimplicitTable.png "explicit VS implicit")
+![alt_text](pages/uploads/images/explicitVSimplicitTable.png "explicit VS implicit")
 
 Avec le explicit messaging, le contrôleur est appelé client et les appareils de terrain sont appelés serveurs. Avec la implicit messaging, le contrôleur est appelé le scanneur d'I  O et les fields devices sont appelés adaptateurs d' I O. 
 Il est important de choisir un contrôleur pouvant prendre en charge à la fois  la messagerie explicite en tant que client ou serveur et la messagerie implicite (E  S réelles) en tant que scanner ou adaptateur. 
@@ -241,41 +157,3 @@ La messagerie non connectée présente les caractéristiques suivantes.
 *   Il est principalement utilisé pour les messages de faible priorité apparaissant une fois ou pas fréquemment.
 
  Il est également utilisé pendant le processus d'établissement de connexion de la messagerie connectée 
-
-| INTERVAL
-    | 
-    | UTILISATION
-    | 
-   |
-| --- | --- | --- | --- |
-| 
-| 0x00 - 0x31
-    | 
-    | CIP Common - referred to cip common services
-    | 
-   |
-| 
-| 0x32 - 0x4A
-    | 
-    | Vendor Specific
-    | 
-   |
-| 
-| 0x4B - 0x63
-    | 
-    | Object Class Specific
-    | 
-   |
-| 
-| 0x64 - 0x7F
-    | 
-    | Reserved by ODVACI for future use
-    | 
-   |
-| 
-| 0x80 - 0xFF
-    | 
-    | Invalid  Not used
-    | 
-   |
-| 
