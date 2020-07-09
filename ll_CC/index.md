@@ -1,8 +1,5 @@
 
-## Getting Started
-
-
-### Le protocol cip :
+## Le protocol cip :
 
 
 Le CIP (Control and Information Protocol) est un protocole orienté objet peer-to-peer qui fournit des connexions entre des appareils industriels (capteurs, actionneurs) et des appareils de niveau supérieur (contrôleurs). Le CIP est indépendant du support physique et de la couche liaison de données.
@@ -23,7 +20,7 @@ Object modelling
 
 Nous allons se focaliser sur les premiers trois points.
 
-### **CIP OBJECT MODELING : **
+## **CIP OBJECT MODELING : **
 
 CIP utilise une approche orientée objet pour modéliser les nœuds et les services de communication sur un réseau CIP. 
 
@@ -85,7 +82,7 @@ Les termes suivants sont utilisés lors de la définition des plages:
 |0xC8 \- 0xFF      |  Reserved by ODVA/CI for future use                |
 
 
-## **MESSAGING PROTOCOL :**
+## **MESSAGING PROTOCOL** :
 
 Une connexion CIP fournit un chemin de communication entre plusieurs points d'extrémité. Les points de terminaison d'une connexion sont des applications qui doivent partager des données. Les transmissions associées à une connexion particulière reçoivent une valeur d'identification lorsqu'une connexion est établie. Cette valeur d'identification est appelée l'ID de connexion (CID). 
 
@@ -96,7 +93,7 @@ Une connexion CIP fournit un chemin de communication entre plusieurs points d'ex
 Le CIP définit un moyen dynamique par lequel les deux types de connexions suivants peuvent être établis : **IO Connections et Explicit Messaging Connections** .
 
 
-### Le Implicit et le Explicite Messaging :
+## Le Implicit VS le Explicite Messaging :
 
 
 
@@ -130,7 +127,7 @@ Il est important de sélectionner un contrôleur pouvant prendre en charge la me
 
 
 
-### Caractéristiques du connected and non connected messaging :
+## Caractéristiques du connected and non connected messaging :
 
 La messagerie connectée présente les caractéristiques suivantes.
 
