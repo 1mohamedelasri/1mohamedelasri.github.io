@@ -242,8 +242,40 @@ La messagerie non connectée présente les caractéristiques suivantes.
 
  Il est également utilisé pendant le processus d'établissement de connexion de la messagerie connectée 
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| INTERVAL
+    | 
+    | UTILISATION
+    | 
+   |
+| --- | --- | --- | --- |
+| 
+| 0x00 - 0x31
+    | 
+    | CIP Common - referred to cip common services
+    | 
+   |
+| 
+| 0x32 - 0x4A
+    | 
+    | Vendor Specific
+    | 
+   |
+| 
+| 0x4B - 0x63
+    | 
+    | Object Class Specific
+    | 
+   |
+| 
+| 0x64 - 0x7F
+    | 
+    | Reserved by ODVACI for future use
+    | 
+   |
+| 
+| 0x80 - 0xFF
+    | 
+    | Invalid  Not used
+    | 
+   |
+| 
