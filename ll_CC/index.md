@@ -242,3 +242,8 @@ La messagerie non connectée présente les caractéristiques suivantes.
 
  Il est également utilisé pendant le processus d'établissement de connexion de la messagerie connectée 
 
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
