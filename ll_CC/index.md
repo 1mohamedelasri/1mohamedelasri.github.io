@@ -1,5 +1,5 @@
 
-## **Le protocol cip** :
+## **Le protocol cip : ** 
 
 Le CIP (Control and Information Protocol) est un protocole orienté objet peer-to-peer qui fournit des connexions entre des appareils industriels (capteurs, actionneurs) et des appareils de niveau supérieur (contrôleurs). Le CIP est indépendant du support physique et de la couche liaison de données.
 
