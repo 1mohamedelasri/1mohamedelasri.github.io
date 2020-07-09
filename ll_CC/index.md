@@ -56,7 +56,6 @@ Les termes suivants sont utilisés lors de la définition des plages:
 
 |       INTERVAL   |        UTILISATION                  |
 |------------------|-------------------------------------|
-|                  |                                     |
 |  0x00 \- 0x63    |  CIP Common                         |
 |  0x64 \- 0xC7    |  Vendor Specific                    |
 |  0xC8 \- 0xFF    |  Reserved by ODVA/CI for future use |
@@ -158,3 +157,33 @@ La messagerie non connectée présente les caractéristiques suivantes.
 *   Il est principalement utilisé pour les messages de faible priorité apparaissant une fois ou pas fréquemment.
 
  Il est également utilisé pendant le processus d'établissement de connexion de la messagerie connectée 
+
+
+## Quel mode de messagerie nous convient le mieux?
+
+La sélection du **explicit-messaging** ou **implicit-messaging** dépend souvent du choix des appareils, car chacun ne peut prendre en charge qu'un seul mode de messagerie. Un contrôleur, en revanche, prend généralement en charge les deux modes en tant que client, serveur, scanner ou adaptateur.
+
+Pour notre cas, nous allons travailler sur une carte MOXA et des PLC, qui prend en charge les deux, implicit et explicit messaging.
+
+Si notre application nécessite de grandes quantités de données, la **explicit-messaging** est le choix préféré car la bande passante est enregistrée, car les données ne sont demandées que lorsque cela est nécessaire.
+
+**Explicit Messaging:**
+
+Dans EtherNet / IP, la connexion de message explicite peut être considérée comme une relation client / serveur. Le client, tel que le contrôleur PLC, demande ou demande les informations à un serveur, tel qu'un appareil de terrain VFD, et le serveur renvoie les informations demandées au contrôleur. \
+Étant donné que le client demande les informations au serveur via les services TCP / IP, la demande contient toutes les informations nécessaires pour répondre explicitement au message. Le Client dit essentiellement: "Serveur, j'ai besoin de ces informations, formatées exactement comme spécifié dans ce message, veuillez les envoyer." Le serveur répond avec un message contenant les informations formatées, peut-être une confirmation que le point de consigne de vitesse VFD a changé, pour faire savoir au contrôleur que tout est OK.
+
+Cette capacité de configuration et de surveillance, commune à la messagerie explicite, fonctionne bien pour la messagerie en temps non réel car le client (contrôleur) peut envoyer une demande de message à tout moment, et le serveur (appareil de terrain) peut répondre lorsqu'il est disponible. La messagerie explicite est généralement utilisée pour la communication client / serveur qui n'est pas critique en termes de temps.
+
+**Implicit Messaging**
+
+EtherNet / IP utilise **Implicit Messaging**, parfois appelée messagerie d'**I/O** **Messaging**, pour les applications critiques comme le contrôle en temps réel. **Implicit Messaging** est souvent appelée d'**I / O Messaging** car elle est fréquemment utilisée pour la communication entre un contrôleur et des** I / O** distantes. Il s'agit d'une connexion de communication beaucoup plus efficace que la messagerie explicite, car les extrémités client et serveur sont préconfigurées pour savoir implicitement ou exactement à quoi s'attendre en termes de communication.
+
+La messagerie implicite en temps réel copie essentiellement les données avec un minimum d'informations supplémentaires intégrées au message. Il n'est pas nécessaire de dire grand-chose à chaque extrémité du lien de communication, car les données ont été prédéfinies. La signification des données est «implicite» ou «implicite», il n'y a donc pas de bagage supplémentaire car les deux extrémités savent déjà exactement ce que chaque bit et octet signifie. \
+Il existe deux formes de connexions utilisées avec EtherNet / IP: non connecté et connecté. La Unconnected messaging est généralement utilisée pour explicit Messaging. Connected messaging utilise des fonctionnalités intégrées à chaque appareil et configurées à l'avance pour la messagerie d'E / S en temps réel, et elle est couramment utilisée avec la messagerie implicite.
+
+
+![alt_text](pages/uploads/images/unconnectedExplicit.png "Unconnected Explicit")
+
+![alt_text](pages/uploads/images/connectedExplicit.png "Connected Explicit")
+
+![alt_text](pages/uploads/images/connectedImplicit.png "Connected Implicit")
