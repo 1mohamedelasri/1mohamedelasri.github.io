@@ -67,8 +67,8 @@ Les termes suivants sont utilisés lors de la définition des plages:
 
 
 **Service Code Ranges:**
-|   INTERVAL       |
-|------------------|----------------------------------------------------|
+|       INTERVAL   |        UTILISATION                  |
+|------------------|-------------------------------------|
 |0x00 \- 0x31      |  CIP Common - referred to cip common services      |    
 |0x32 \- 0x4A      |  Vendor Specific                                   |
 |0x4B \- 0x63      |  Object Class Specific                             |
@@ -78,10 +78,10 @@ Les termes suivants sont utilisés lors de la définition des plages:
 
 **Attribute ID Ranges:**
 
-|INTERVAL||UTILISATION||
-|0x00 - 0x63||CIP Common -||
-|0x64 - 0xC7||Vendor Specific||
-|0xC8 - 0xFF||Reserved by ODVACI for future use||
+|INTERVAL|UTILISATION|
+|0x00 - 0x63|CIP Common -|
+|0x64 - 0xC7|Vendor Specific|
+|0xC8 - 0xFF|Reserved by ODVACI for future use|
 
 
 
@@ -105,7 +105,7 @@ Un message d' **IO** se compose d'un ID de connexion et des données **IO **asso
 
 
 
-![alt_text](pages/uploadsimages/IOConnection.png "IOConnection")
+![alt_text](pages/uploads/images/IOConnection.png "IOConnection")
 
 *   **Explicit Messaging Connections** :  
 son rôle est de fournir une multi-purpose communication entre deux noeuds, les messages explicites fournissent les communications réseau request  réponse. typiques orientées. 
