@@ -23,13 +23,12 @@ Object modelling
 
 Nous allons se focaliser sur les premiers trois points.
 
-### **CIP OBJECT MODELING : \
-**
+### **CIP OBJECT MODELING : **
 
 CIP utilise une approche orientée objet pour modéliser les nœuds et les services de communication sur un réseau CIP. 
 
 
-![alt_text](pages/uploads/images/Domain Object Modeling.png "image_tooltip")
+![alt_text](pagesuploadsimagesDomain Object Modeling.png "image_tooltip")
 
 
 Chaque nœud est modélisé comme une collection d'objets. Un objet représente un élément ou un composant particulier au sein d'un nœud. Chaque objet appartient à une classe d'objets qui partagent le même ensemble d'attributs et implémentent les mêmes comportements. Un objet est une instance de cette classe, avec son propre ensemble unique de valeurs d'attribut. Un noeud peut contenir plusieurs objets de la même classe. Les nœuds et les objets à partir desquels ils sont constitués utilisent un schéma d'adressage standard comprenant les éléments suivants:
@@ -54,8 +53,6 @@ Les termes suivants sont utilisés lors de la définition des plages:
 *   **Object Class Specific** - Une plage de valeurs dont la signification est définie par une ObjectClass. Cette plage s'applique aux définitions de code de service
 
 **Class ID Ranges:**
-
-
 <table>
   <tr>
    <td><strong>INTERVAL<strong>
@@ -103,8 +100,6 @@ Les termes suivants sont utilisés lors de la définition des plages:
 
 
 **Service Code Ranges:**
-
-
 <table>
   <tr>
    <td><strong>INTERVAL<strong>
@@ -146,8 +141,6 @@ Les termes suivants sont utilisés lors de la définition des plages:
 
 
 **Attribute ID Ranges:**
-
-
 <table>
   <tr>
    <td><strong>INTERVAL<strong>
@@ -180,7 +173,7 @@ Les termes suivants sont utilisés lors de la définition des plages:
 
 Une connexion CIP fournit un chemin de communication entre plusieurs points d'extrémité. Les points de terminaison d'une connexion sont des applications qui doivent partager des données. Les transmissions associées à une connexion particulière reçoivent une valeur d'identification lorsqu'une connexion est établie. Cette valeur d'identification est appelée l'ID de connexion (CID). 
 
-![alt_text](pages/uploads/images/messagingProtocol.png "image_tooltip")
+![alt_text](pagesuploadsimagesmessagingProtocol.png "image_tooltip")
  
 **Connected Objects** modélise les caractéristiques de communication d'une relation particulière Application-to-Application (s). Le terme point de terminaison fait référence à l'une des entités communicantes impliquées dans une connexion.  
  
@@ -196,7 +189,7 @@ Un message d' **IO** se compose d'un ID de connexion et des données **IO **asso
 
 
 
-![alt_text](pages/uploads/images/IOConnection.png "image_tooltip")
+![alt_text](pagesuploadsimagesIOConnection.png "image_tooltip")
 
 *   **Explicit Messaging Connections** :  
 son rôle est de fournir une multi-purpose communication entre deux noeuds, les messages explicites fournissent les communications réseau request  réponse. typiques orientées. 
@@ -205,19 +198,19 @@ La messagerie explicite fournit les moyens par lesquels les fonctions typiques o
  Un Explicit Message se compose d'un ID de connexion et des informations de protocole de messagerie associées. 
 
 
-![alt_text](pages/uploads/images/expclicitConnection.png "image_tooltip")
+![alt_text](pagesuploadsimagesexpclicitConnection.png "image_tooltip")
  
 
 
-![alt_text](pages/uploads/images/explicitVSimplicitTable.png "image_tooltip")
+![alt_text](pagesuploadsimagesexplicitVSimplicitTable.png "image_tooltip")
 
-Avec le explicit messaging, le contrôleur est appelé client et les appareils de terrain sont appelés serveurs. Avec la implicit messaging, le contrôleur est appelé le scanneur d'I / O et les fields devices sont appelés adaptateurs d' I/ O. 
-Il est important de choisir un contrôleur pouvant prendre en charge à la fois  la messagerie explicite en tant que client ou serveur et la messagerie implicite (E / S réelles) en tant que scanner ou adaptateur. 
+Avec le explicit messaging, le contrôleur est appelé client et les appareils de terrain sont appelés serveurs. Avec la implicit messaging, le contrôleur est appelé le scanneur d'I  O et les fields devices sont appelés adaptateurs d' I O. 
+Il est important de choisir un contrôleur pouvant prendre en charge à la fois  la messagerie explicite en tant que client ou serveur et la messagerie implicite (E  S réelles) en tant que scanner ou adaptateur. 
 
 
-![alt_text](pages/uploads/images/explicitVSimplicitDiagram.png "image_tooltip")
+![alt_text](pagesuploadsimagesexplicitVSimplicitDiagram.png "image_tooltip")
 
-Il est important de sélectionner un contrôleur pouvant prendre en charge la messagerie explicite en tant que client ou serveur et la messagerie implicite (E / S réelles) en tant que scanner ou adaptateur. 
+Il est important de sélectionner un contrôleur pouvant prendre en charge la messagerie explicite en tant que client ou serveur et la messagerie implicite (E  S réelles) en tant que scanner ou adaptateur. 
 
 
 
@@ -239,7 +232,7 @@ La messagerie non connectée présente les caractéristiques suivantes.
 
 
 
-*   La messagerie non connectée doit être prise en charge sur chaque périphérique EtherNet / IP (minimum messagerie requise qu'un appareil doit prendre en charge) et est donc toujours disponible.
+*   La messagerie non connectée doit être prise en charge sur chaque périphérique EtherNet  IP (minimum messagerie requise qu'un appareil doit prendre en charge) et est donc toujours disponible.
 *    Les ressources ne sont pas réservées à l'avance, il n'y a donc aucun mécanisme de réservation.
 *    Aucune configuration ou maintenance requise.
 *   Le message ne peut être utilisé qu'en cas de besoin.
@@ -247,5 +240,5 @@ La messagerie non connectée présente les caractéristiques suivantes.
 *   Plus de frais généraux par message
 *   Il est principalement utilisé pour les messages de faible priorité apparaissant une fois ou pas fréquemment.
 
- Il est également utilisé pendant le processus d'établissement de connexion de la messagerie connectée \
+ Il est également utilisé pendant le processus d'établissement de connexion de la messagerie connectée 
 
