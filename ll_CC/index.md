@@ -187,8 +187,8 @@ La messagerie implicite en temps réel copie essentiellement les données avec u
 Il existe deux formes de connexions utilisées avec EtherNet / IP: non connecté et connecté. La Unconnected messaging est généralement utilisée pour explicit Messaging. Connected messaging utilise des fonctionnalités intégrées à chaque appareil et configurées à l'avance pour la messagerie d'E / S en temps réel, et elle est couramment utilisée avec la messagerie implicite.
 
 
-![alt_text](pages/uploads/images/unconnectedExplicit.png "Unconnected Explicit"){:height="200px" width="100px"}
+![alt_text](pages/uploads/images/unconnectedExplicit.png "Unconnected Explicit")           
 
-![alt_text](pages/uploads/images/connectedExplicit.png "Connected Explicit"){:height="200px" width="100px"}
+![alt_text](pages/uploads/images/connectedExplicit.png "Connected Explicit")           
 
-![alt_text](pages/uploads/images/connectedImplicit.png "Connected Implicit"){:height="200px" width="100px"}
+![alt_text](pages/uploads/images/connectedImplicit.png "Connected Implicit")           
