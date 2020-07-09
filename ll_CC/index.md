@@ -1,5 +1,5 @@
 
-## **Le protocol cip : ** 
+## **Le protocol cip ** 
 
 Le CIP (Control and Information Protocol) est un protocole orienté objet peer-to-peer qui fournit des connexions entre des appareils industriels (capteurs, actionneurs) et des appareils de niveau supérieur (contrôleurs). Le CIP est indépendant du support physique et de la couche liaison de données.
 
@@ -22,7 +22,7 @@ Nous allons se focaliser sur les premiers trois points.
 
 
 
-## **CIP OBJECT MODELING : **
+## ** CIP OBJECT MODELING  **
 
 CIP utilise une approche orientée objet pour modéliser les nœuds et les services de communication sur un réseau CIP. 
 
@@ -87,7 +87,7 @@ Les termes suivants sont utilisés lors de la définition des plages:
 
 
 
-## **MESSAGING PROTOCOL** :
+## **MESSAGING PROTOCOL** 
 
 Une connexion CIP fournit un chemin de communication entre plusieurs points d'extrémité. Les points de terminaison d'une connexion sont des applications qui doivent partager des données. Les transmissions associées à une connexion particulière reçoivent une valeur d'identification lorsqu'une connexion est établie. Cette valeur d'identification est appelée l'ID de connexion (CID). 
 
@@ -98,7 +98,7 @@ Une connexion CIP fournit un chemin de communication entre plusieurs points d'ex
 Le CIP définit un moyen dynamique par lequel les deux types de connexions suivants peuvent être établis : **IO Connections et Explicit Messaging Connections** .
 
 
-## Le Implicit VS le Explicite Messaging :
+## ** Le Implicit VS le Explicite Messaging **
 
 
 
@@ -133,7 +133,7 @@ Il est important de sélectionner un contrôleur pouvant prendre en charge la me
 
 
 
-## **Caractéristiques du connected and non connected messaging** :
+## ** Caractéristiques du connected and non connected messaging **
 
 La messagerie connectée présente les caractéristiques suivantes.
 
@@ -164,7 +164,7 @@ La messagerie non connectée présente les caractéristiques suivantes.
 
 
 
-## **Quel mode de messagerie nous convient le mieux?**
+## ** Quel mode de messagerie nous convient le mieux? **
 
 La sélection du **explicit-messaging** ou **implicit-messaging** dépend souvent du choix des appareils, car chacun ne peut prendre en charge qu'un seul mode de messagerie. Un contrôleur, en revanche, prend généralement en charge les deux modes en tant que client, serveur, scanner ou adaptateur.
 
