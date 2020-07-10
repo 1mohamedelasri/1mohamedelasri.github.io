@@ -1,10 +1,10 @@
-# MDwiki
+# CIP CONENCTOR
 
 [About](index.md)
 
 [Docs]()
 
-  * [Quickstart](pages/quickstart.md)
+  * [CIP Documentation](pages/cipDocumentation.md.md)
   * [Layout](pages/layout.md)
   * [FAQ](pages/faq.md)
   - - - -
