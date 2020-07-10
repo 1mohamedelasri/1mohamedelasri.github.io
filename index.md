@@ -1,61 +1,45 @@
 About
 =====
 
-MDwiki is a CMS/Wiki __completely built in HTML5/Javascript and runs 100% on the client__. No special software installation or server side processing is required. Just upload the `mdwiki.html` shipped with MDwiki into the same directory as your markdown files and you are good to go!
-
-Note: The website you are currently viewing is realized with MDwiki and hosted on [GitHub pages](http://pages.github.com/). [http://mdwiki.info](http://mdwiki.info) redirects here.
-
-[gimmick:twitterfollow](timodoerr)
+CIP CONNECTOR is an Ethernet/IP library __completely built on JAVA and it provide some tools in order to communicate with devices that support common industrial . 
 
 Features
 --------
 
-  * Built completely in Javascript/HTML5 and __does not require any local or remote installations__
-  * Uses [Markdown][markdown] as its input markup language
-  * Build on top of [jQuery][jQuery] and [Bootstrap3][bootstrap] to work cross-browser, with responsive layout
-  * Extends Markdown with special [_Gimmicks_][gimmicks] that add rich client functions, like syntax highlighting via [hightlight.js][highlightjs], [GitHub Gists][gists], or [Google Maps][maps] for geo data
-  * Themeable through Bootstrap compatibility, supports all themes from [bootswatch](http://www.bootswatch.com)
+  * Built completely in JAVA and __does not require any local or remote installations__
+  * Build on top of [Ethernet/IP][jQuery]
+  * Uses common [CIP PROTOCOL][pages/cipDocumentation.md] concepts.
+  * Adaptable to work with most PLCs, Tested on MOXA family and schneider M221
+  * A Java tool using cip connector is provided to test and debug communications with devices
 
 
 Requirements
 ------------
-
-* Webspace (or a web server that can serve static files)
-* Any modern Webbrowser
-* [mdwiki.html][download] file
+* A good common industrial protocol knowledge, see [CIP PROTOCOL Documentation][pages/cipDocumentation.md]
+* network infrastructure
+* A PLC that support CIP protocol
+* Java Runtime Environment
 
 How does it work?
 -----------------
 
-Just drop the `mdwiki.html` available from [the download page][download] along with your markdown files on a webspace somewhere. You can pass any url (relative to the `mdwiki.html` file) to mdwiki after the hashbang `#!`:
+Just download the -library  available from [the download page][download].
 
-    http://www.example.com/mdwiki.html#!myfile.md
+Have a look on the Code exemples [Code Examples][download], and choose the one that interests you
 
-If you rename the `mdwiki.html` into `index.html`, you can omit the filename on most webservers:
-
-    http://www.example.com/#!myfile.md
-
-MDwiki will load a file called `index.md` from the same directory as the index.html by default, so if you use an `index.md` file as entry point, all you have to do is enter your domain name:
-
-    http://example.com/
-
-Note: There are lots more features over regular Markdown, check out the [quickstart tutorial][quickstart].
+Note: There are lots more features over regular Code Examples, check out the [tutorial][quickstart].
 
 - - - -
 
 Credits / Technologies
 ----------------------
 
-MDwiki would not exist if it weren't for those great pieces of software:
+CIP CONNECTOR would not exist if it weren't for those great pieces of software:
 
-  * [marked][marked]
-  * [jQuery][jQuery]
-  * [Bootstrap][bootstrap]
-  * [Bootswatch][bootswatch]
-  * [colorbox][colorbox]
-  * [highlightjs][highlightjs]
+  * [rossmann-engineering EEIP LIBRRY](http://eeip-library.de/)
+  * [MDwiki](http://dynalon.github.io/mdwiki/#!quickstart.md)
 
-MDwiki is created by Timo Dörr. Follow me to get updates on MDwiki! [Follow @timodoerr](http://www.twitter.com/timodoerr).
+MDwiki is created by Cohorte Technologies. Visite this link to know more about [Cohorte Technologies](http://www.cohorte-technologies.com/fr/index.html).
 
 Cute kitten images provided by the great [placekitten.com] service.
 
@@ -77,6 +61,6 @@ Cute kitten images provided by the great [placekitten.com] service.
 License
 -------
 
-MDwiki is licensed under [GNU GPLv3 with additional terms applied][license].
+CIP CONNECTOR is licensed under [GNU GPLv3 with additional terms applied][license].
 
-  [license]: https://github.com/Dynalon/mdwiki/blob/master/LICENSE.txt
+  [license]: https://github.com/1mohamedelasri/home/LICENSE.txt

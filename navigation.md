@@ -4,7 +4,7 @@
 
 [Docs]()
 
-  * [CIP Documentation](pages/cipDocumentation.md.md)
+  * [CIP Documentation](pages/cipDocumentation.md)
   * [Layout](pages/layout.md)
   * [FAQ](pages/faq.md)
   - - - -
