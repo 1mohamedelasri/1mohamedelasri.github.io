@@ -4,8 +4,8 @@
 
 [Docs]()
 
-  * [CIP Documentation](docs/pages/cipDocumentation.md)
-  * [Library Documentation](docs/pages/codeDocumentation.md)
+  * [CIP Documentation](pages/docs/cipDocumentation.md)
+  * [Library Documentation](docs/pages/docs/codeDocumentation.md)
   * [Library](docs/pages/cipDocumentation.md)
   * [FAQ](pages/faq.md)
   - - - -
@@ -31,9 +31,9 @@
 
 [gimmick:theme](simplex)
 
-<!-- [gimmick:theme (inverse: true)](simplex) -->
+[gimmick:theme (inverse: true)](simplex)
 
-<!-- [gimmick:ThemeChooser](Change theme) -->
+[gimmick:ThemeChooser](Change theme)
 
 [gimmick:forkmeongithub](http://github.com/Dynalon/mdwiki/)
 
