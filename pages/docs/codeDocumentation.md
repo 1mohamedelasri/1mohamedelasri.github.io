@@ -1,4 +1,6 @@
-## tech.cohorte.pinea.cipclientcore.tools.CIPConnectionPathValidator
+#tech.cohorte.pinea.cipconnector
+
+## tools.CIPConnectionPathValidator
 
 ### Fields Summary
 
@@ -23,7 +25,7 @@
 
 
 
-## tech.cohorte.pinea.cipclientcore.tools.IPAddressValidator
+## tools.IPAddressValidator
 
 ### Fields Summary
 
