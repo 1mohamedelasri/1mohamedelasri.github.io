@@ -33,7 +33,7 @@
 
 <!-- [gimmick:theme (inverse: true)](simplex) -->
 
-[gimmick:ThemeChooser](Change theme)
+<!-- [gimmick:ThemeChooser](Change theme) -->
 
 [gimmick:forkmeongithub](http://github.com/Dynalon/mdwiki/)
 
