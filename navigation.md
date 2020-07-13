@@ -4,7 +4,8 @@
 
 [Docs]()
 
-  * [CIP Documentation](pages/cipDocumentation.md)
+  * [CIP Documentation](docs/pages/cipDocumentation.md)
+  * [CIP Documentation](docs/pages/codeDocumentation.md)
   * [Layout](pages/layout.md)
   * [FAQ](pages/faq.md)
   - - - -
@@ -28,7 +29,7 @@
 [Forum](pages/forum.md)
 
 
-[gimmick:theme (inverse: false)](spacelab)
+[gimmick:theme (inverse: true)](simplex)
 
 [gimmick:ThemeChooser](Change theme)
 
