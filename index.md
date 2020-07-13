@@ -15,7 +15,7 @@ Features
 
 Requirements
 ------------
-* A good common industrial protocol knowledge, see [CIP PROTOCOL Documentation][pages/cipDocumentation.md]
+* A good common industrial protocol knowledge, see [CIP PROTOCOL Documentation](pages/cipDocumentation.md)
 * network infrastructure
 * A PLC that support CIP protocol
 * Java Runtime Environment
@@ -38,6 +38,7 @@ CIP CONNECTOR would not exist if it weren't for those great pieces of software:
 
   * [rossmann-engineering EEIP LIBRRY](http://eeip-library.de/)
   * [MDwiki](http://dynalon.github.io/mdwiki/#!quickstart.md)
+  * [ODVA](https://www.odva.org/)
 
 MDwiki is created by Cohorte Technologies. Visite this link to know more about [Cohorte Technologies](http://www.cohorte-technologies.com/fr/index.html).
 
