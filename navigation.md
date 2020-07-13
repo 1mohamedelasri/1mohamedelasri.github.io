@@ -6,7 +6,7 @@
 
   * [CIP Documentation](docs/pages/cipDocumentation.md)
   * [Library Documentation](docs/pages/codeDocumentation.md)
-  * [Layout](pages/layout.md)
+  * [Library](pages/layout.md)
   * [FAQ](pages/faq.md)
   - - - -
   * # Advanced
