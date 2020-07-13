@@ -27,7 +27,7 @@ Nous allons se focaliser sur les premiers trois points.
 CIP utilise une approche orientée objet pour modéliser les nœuds et les services de communication sur un réseau CIP. 
 
 
-![alt_text](uploads/images/Domain_Object_Modeling.png "Domain Object Modeling")
+![alt_text](images/Domain_Object_Modeling.png "Domain Object Modeling")
 
 
 Chaque nœud est modélisé comme une collection d'objets. Un objet représente un élément ou un composant particulier au sein d'un nœud. Chaque objet appartient à une classe d'objets qui partagent le même ensemble d'attributs et implémentent les mêmes comportements. Un objet est une instance de cette classe, avec son propre ensemble unique de valeurs d'attribut. Un noeud peut contenir plusieurs objets de la même classe. Les nœuds et les objets à partir desquels ils sont constitués utilisent un schéma d'adressage standard comprenant les éléments suivants:
@@ -91,7 +91,7 @@ Les termes suivants sont utilisés lors de la définition des plages:
 
 Une connexion CIP fournit un chemin de communication entre plusieurs points d'extrémité. Les points de terminaison d'une connexion sont des applications qui doivent partager des données. Les transmissions associées à une connexion particulière reçoivent une valeur d'identification lorsqu'une connexion est établie. Cette valeur d'identification est appelée l'ID de connexion (CID). 
 
-![alt_text](uploads/images/messagingProtocol.png "Messaging Protocol")
+![alt_text](images/messagingProtocol.png "Messaging Protocol")
  
 **Connected Objects** modélise les caractéristiques de communication d'une relation particulière Application-to-Application (s). Le terme point de terminaison fait référence à l'une des entités communicantes impliquées dans une connexion.  
  
@@ -107,7 +107,7 @@ Un message d' **IO** se compose d'un ID de connexion et des données **IO **asso
 
 
 
-![alt_text](uploads/images/IOConnection.png "IOConnection")
+![alt_text](images/IOConnection.png "IOConnection")
 
 *   **Explicit Messaging Connections** :  
 son rôle est de fournir une multi-purpose communication entre deux noeuds, les messages explicites fournissent les communications réseau request  réponse. typiques orientées. 
@@ -116,17 +116,17 @@ La messagerie explicite fournit les moyens par lesquels les fonctions typiques o
  Un Explicit Message se compose d'un ID de connexion et des informations de protocole de messagerie associées. 
 
 
-![alt_text](uploads/images/expclicitConnection.png "Explicit Connection")
+![alt_text](images/expclicitConnection.png "Explicit Connection")
  
 
 
-![alt_text](uploads/images/explicitVSimplicitTable.png "explicit VS implicit")
+![alt_text](images/explicitVSimplicitTable.png "explicit VS implicit")
 
 Avec le explicit messaging, le contrôleur est appelé client et les appareils de terrain sont appelés serveurs. Avec la implicit messaging, le contrôleur est appelé le scanneur d'I  O et les fields devices sont appelés adaptateurs d' I O. 
 Il est important de choisir un contrôleur pouvant prendre en charge à la fois  la messagerie explicite en tant que client ou serveur et la messagerie implicite (E  S réelles) en tant que scanner ou adaptateur. 
 
 
-![alt_text](uploads/images/explicitVSimplicitDiagram.png "explicit VS implicit")
+![alt_text](images/explicitVSimplicitDiagram.png "explicit VS implicit")
 
 Il est important de sélectionner un contrôleur pouvant prendre en charge la messagerie explicite en tant que client ou serveur et la messagerie implicite (E  S réelles) en tant que scanner ou adaptateur. 
 
@@ -187,11 +187,11 @@ La messagerie implicite en temps réel copie essentiellement les données avec u
 Il existe deux formes de connexions utilisées avec EtherNet / IP: non connecté et connecté. La Unconnected messaging est généralement utilisée pour explicit Messaging. Connected messaging utilise des fonctionnalités intégrées à chaque appareil et configurées à l'avance pour la messagerie d'E / S en temps réel, et elle est couramment utilisée avec la messagerie implicite.
 
 
-![alt_text](uploads/images/unconnectedExplicit.png "Unconnected Explicit")           
+![alt_text](images/unconnectedExplicit.png "Unconnected Explicit")           
 
-![alt_text](uploads/images/connectedExplicit.png "Connected Explicit")           
+![alt_text](images/connectedExplicit.png "Connected Explicit")           
 
-![alt_text](uploads/images/connectedImplicit.png "Connected Implicit")           
+![alt_text](images/connectedImplicit.png "Connected Implicit")           
 
 
 
@@ -225,7 +225,7 @@ Définit s'il s'agit d'une connexion de production uniquement, de consommation u
 
 
 
-![alt_text](uploads/images/transportTrigger.png "image_tooltip")
+![alt_text](images/transportTrigger.png "image_tooltip")
 
 
 Le bit Direction de l'octet de la classe transport Class trigger indique si le point d'extrémité doit agir en tant que client ou serveur sur cette connexion. Les valeurs suivantes sont définies: 
