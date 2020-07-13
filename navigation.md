@@ -5,7 +5,7 @@
 [Docs]()
 
   * [CIP Documentation](pages/docs/cipDocumentation.md)
-  * [CIP CONNECTOR JavaDoc](pages/docs/codeDocumentation.md)
+  * [CIP CONNECTOR JavaDoc](pages/docs/javaDoc/index.html)
   * [Library](docs/pages/cipDocumentation.md)
   * [FAQ](pages/faq.md)
   - - - -
