@@ -29,7 +29,9 @@
 [Forum](pages/forum.md)
 
 
-[gimmick:theme (inverse: true)](simplex)
+[gimmick:theme](simplex)
+
+<!-- [gimmick:theme (inverse: true)](simplex) -->
 
 [gimmick:ThemeChooser](Change theme)
 
