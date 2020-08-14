@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="96px" preserveAspectRatio="none" style="width:197px;height:96px;" version="1.1" viewBox="0 0 197 96" width="197px" zoomAndPan="magnify"><defs><filter height="300%" id="f1fokey5gjkpvr" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[faa4c494f6b4c1d0df5714931a795d95]
+class de.re.eeip.cip.datatypes.GeneralStatusCodes--><a href="GeneralStatusCodes.html" target="_top" title="GeneralStatusCodes.html" xlink:actuate="onRequest" xlink:href="GeneralStatusCodes.html" xlink:show="new" xlink:title="GeneralStatusCodes.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f1fokey5gjkpvr)" height="59.2207" id="de.re.eeip.cip.datatypes.GeneralStatusCodes" style="stroke: #A80036; stroke-width: 1.5;" width="174" x="7" y="7"/><ellipse cx="23.8" cy="26.1328" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M26.2731,32.2759 Q25.6921,32.5747 25.0529,32.7241 Q24.4138,32.8735 23.7082,32.8735 Q21.2014,32.8735 19.8815,31.2217 Q18.5617,29.5698 18.5617,26.4487 Q18.5617,23.3193 19.8815,21.6675 Q21.2014,20.0156 23.7082,20.0156 Q24.4138,20.0156 25.0612,20.165 Q25.7087,20.3145 26.2731,20.6133 L26.2731,23.3359 Q25.6423,22.7549 25.0488,22.4851 Q24.4553,22.2153 23.8244,22.2153 Q22.4797,22.2153 21.7949,23.282 Q21.1101,24.3486 21.1101,26.4487 Q21.1101,28.5405 21.7949,29.6072 Q22.4797,30.6738 23.8244,30.6738 Q24.4553,30.6738 25.0488,30.4041 Q25.6423,30.1343 26.2731,29.5532 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="138" x="38.2" y="25.5352">GeneralStatusCodes</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="117" x="48.7" y="38.1563">de.re.eeip.cip.datatypes</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="180" y1="45.2656" y2="45.2656"/><ellipse cx="18" cy="56.2656" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="148" x="27" y="59.9004">GetStatusCode(byte): String</text></a><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="182" x="3" y="82.8887">UMLDoclet 2.0.9, PlantUML 1.2020.08</text><!--MD5=[5bcd697f6a47346c64d7182f17377026]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>GeneralStatusCodes\n<size:10>de.re.eeip.cip.datatypes" as de.re.eeip.cip.datatypes.GeneralStatusCodes [[GeneralStatusCodes.html]] {
+        {static} +GetStatusCode(byte): String
+    }
+
+    center footer UMLDoclet 2.0.9, PlantUML 1.2020.08
+@enduml
+
+PlantUML version 1.2020.08(Sun Apr 26 16:08:22 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14.0.2+12-46
+Operating System: Mac OS X
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>

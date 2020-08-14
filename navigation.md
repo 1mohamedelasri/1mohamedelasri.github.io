@@ -6,21 +6,13 @@
 
   * [CIP Documentation](pages/docs/cipDocumentation.md)
   * [CIP CONNECTOR JavaDoc](pages/docs/javaDoc/index.html)
-  * [Library](docs/pages/cipDocumentation.md)
   * [FAQ](pages/faq.md)
-  - - - -
-  * # Advanced
-  * [Customizing](pages/customizing.md)
-
 
 [Tutorials]()
 
   * [About the Tutorials](pages/tutorials.md)
   - - - -
-  * [Hosting with GitHub](pages/tutorials/github.md)
-  * [Hosting with Google Drive](pages/tutorials/drive.md)
-  * [Use with Dropbox](pages/tutorials/dropbox.md)
-  * [Set up MDwiki on IIS](pages/tutorials/iis/iis.md)
+  * [CONNECTOR JAVA TOOL](pages/tutorials/github.md)
 
 [Examples](pages/examples.md)
 [Download](pages/download.md)

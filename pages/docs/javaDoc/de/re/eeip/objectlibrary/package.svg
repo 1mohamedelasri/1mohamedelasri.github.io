@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="192px" preserveAspectRatio="none" style="width:450px;height:192px;" version="1.1" viewBox="0 0 450 192" width="450px" zoomAndPan="magnify"><defs><filter height="300%" id="fjhmo82gpzcxr" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[1862af3aced5092b0b55a7b0b4ced099]
+cluster de.re.eeip.objectlibrary--><polygon fill="#FFFFFF" filter="url(#fjhmo82gpzcxr)" points="14,16,181,16,188,38.4883,428,38.4883,428,151,14,151,14,16" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="14" x2="188" y1="38.4883" y2="38.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="161" x="18" y="31.5352">de.re.eeip.objectlibrary</text><!--MD5=[7d54ddffc5d7c40a2aa0ef26763a316f]
+class de.re.eeip.objectlibrary.AssemblyObject--><a href="AssemblyObject.html" target="_top" title="AssemblyObject.html" xlink:actuate="onRequest" xlink:href="AssemblyObject.html" xlink:show="new" xlink:title="AssemblyObject.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#fjhmo82gpzcxr)" height="99.8203" id="de.re.eeip.objectlibrary.AssemblyObject" style="stroke: #A80036; stroke-width: 1.5;" width="175" x="244.5" y="43"/><ellipse cx="282" cy="59" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M284.4731,65.1431 Q283.8921,65.4419 283.2529,65.5913 Q282.6138,65.7407 281.9082,65.7407 Q279.4014,65.7407 278.0815,64.0889 Q276.7617,62.437 276.7617,59.3159 Q276.7617,56.1865 278.0815,54.5347 Q279.4014,52.8828 281.9082,52.8828 Q282.6138,52.8828 283.2612,53.0322 Q283.9087,53.1816 284.4731,53.4805 L284.4731,56.2031 Q283.8423,55.6221 283.2488,55.3523 Q282.6553,55.0825 282.0244,55.0825 Q280.6797,55.0825 279.9949,56.1492 Q279.3101,57.2158 279.3101,59.3159 Q279.3101,61.4077 279.9949,62.4744 Q280.6797,63.541 282.0244,63.541 Q282.6553,63.541 283.2488,63.2712 Q283.8423,63.0015 284.4731,62.4204 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="93" x="301" y="63.5352">AssemblyObject</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="245.5" x2="418.5" y1="75" y2="75"/><ellipse cx="255.5" cy="86" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="111" x="264.5" y="89.6348">eeipClient: EEIPClient</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="245.5" x2="418.5" y1="95.9551" y2="95.9551"/><ellipse cx="255.5" cy="106.9551" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="147" x="264.5" y="110.5898">AssemblyObject(EEIPClient)</text><ellipse cx="255.5" cy="119.9102" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="121" x="264.5" y="123.5449">getInstance(int): byte[]</text><ellipse cx="255.5" cy="132.8652" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="149" x="264.5" y="136.5">setInstance(int, byte[]): void</text></a><!--MD5=[a3bea8210c9e1cf76982d913cf7caed9]
+class de.re.eeip.objectlibrary.ConnectionManagerObject--><a href="ConnectionManagerObject.html" target="_top" title="ConnectionManagerObject.html" xlink:actuate="onRequest" xlink:href="ConnectionManagerObject.html" xlink:show="new" xlink:title="ConnectionManagerObject.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#fjhmo82gpzcxr)" height="60.9551" id="de.re.eeip.objectlibrary.ConnectionManagerObject" style="stroke: #A80036; stroke-width: 1.5;" width="187" x="22.5" y="62.5"/><ellipse cx="39.3" cy="78.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M41.7731,84.6431 Q41.1921,84.9419 40.5529,85.0913 Q39.9138,85.2407 39.2082,85.2407 Q36.7014,85.2407 35.3815,83.5889 Q34.0617,81.937 34.0617,78.8159 Q34.0617,75.6865 35.3815,74.0347 Q36.7014,72.3828 39.2082,72.3828 Q39.9138,72.3828 40.5612,72.5322 Q41.2087,72.6816 41.7731,72.9805 L41.7731,75.7031 Q41.1423,75.1221 40.5488,74.8523 Q39.9553,74.5825 39.3244,74.5825 Q37.9797,74.5825 37.2949,75.6492 Q36.6101,76.7158 36.6101,78.8159 Q36.6101,80.9077 37.2949,81.9744 Q37.9797,83.041 39.3244,83.041 Q39.9553,83.041 40.5488,82.7712 Q41.1423,82.5015 41.7731,81.9204 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="151" x="53.7" y="83.0352">ConnectionManagerObject</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="23.5" x2="208.5" y1="94.5" y2="94.5"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="23.5" x2="208.5" y1="102.5" y2="102.5"/><ellipse cx="33.5" cy="113.5" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="161" x="42.5" y="117.1348">GetExtendedStatus(int): String</text></a><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="182" x="136" y="178.668">UMLDoclet 2.0.9, PlantUML 1.2020.08</text><!--MD5=[e344bed4a3cc8e140f5a10b51c4c7bf7]
+@startuml
+    namespace de.re.eeip.objectlibrary {
+
+        class AssemblyObject [[AssemblyObject.html]] {
+            +eeipClient: EEIPClient
+            +AssemblyObject(EEIPClient)
+            +getInstance(int): byte[]
+            +setInstance(int, byte[]): void
+        }
+
+        class ConnectionManagerObject [[ConnectionManagerObject.html]] {
+            {static} +GetExtendedStatus(int): String
+        }
+
+    }
+
+    center footer UMLDoclet 2.0.9, PlantUML 1.2020.08
+@enduml
+
+PlantUML version 1.2020.08(Sun Apr 26 16:08:22 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14.0.2+12-46
+Operating System: Mac OS X
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>

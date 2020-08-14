@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="259px" preserveAspectRatio="none" style="width:256px;height:259px;" version="1.1" viewBox="0 0 256 259" width="256px" zoomAndPan="magnify"><defs><filter height="300%" id="f7fsl8n8mot6c" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[4910d68d805ad1130f186568962435c2]
+class com.cohorte.ethernetip.cipconnector.CIPDevice--><a href="CIPDevice.html" target="_top" title="CIPDevice.html" xlink:actuate="onRequest" xlink:href="CIPDevice.html" xlink:show="new" xlink:title="CIPDevice.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f7fsl8n8mot6c)" height="222.6816" id="com.cohorte.ethernetip.cipconnector.CIPDevice" style="stroke: #A80036; stroke-width: 1.5;" width="238" x="7" y="7"/><ellipse cx="34.15" cy="26.1328" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M36.6231,32.2759 Q36.0421,32.5747 35.4029,32.7241 Q34.7638,32.8735 34.0582,32.8735 Q31.5514,32.8735 30.2315,31.2217 Q28.9117,29.5698 28.9117,26.4487 Q28.9117,23.3193 30.2315,21.6675 Q31.5514,20.0156 34.0582,20.0156 Q34.7638,20.0156 35.4112,20.165 Q36.0587,20.3145 36.6231,20.6133 L36.6231,23.3359 Q35.9923,22.7549 35.3988,22.4851 Q34.8053,22.2153 34.1744,22.2153 Q32.8297,22.2153 32.1449,23.282 Q31.4601,24.3486 31.4601,26.4487 Q31.4601,28.5405 32.1449,29.6072 Q32.8297,30.6738 34.1744,30.6738 Q34.8053,30.6738 35.3988,30.4041 Q35.9923,30.1343 36.6231,29.5532 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="107.35" y="25.5352">CIPDevice</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="179" x="50.85" y="38.1563">com.cohorte.ethernetip.cipconnector</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="244" y1="45.2656" y2="45.2656"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="15" y="53.2656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="161" x="27" y="59.9004">deviceIdentity: CipIdentityItem</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="15" y="66.2207"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="27" y="72.8555">cipDataIN: CIPData</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="15" y="79.1758"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="111" x="27" y="85.8105">cipDataOUT: CIPData</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="15" y="92.1309"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="163" x="27" y="98.7656">cipConnection: CIPConnection</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="244" y1="105.0859" y2="105.0859"/><ellipse cx="18" cy="116.0859" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="187" x="27" y="119.7207">getDeviceIdentity(): CipIdentityItem</text><ellipse cx="18" cy="129.041" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="209" x="27" y="132.6758">setDeviceIdentity(CipIdentityItem): void</text><ellipse cx="18" cy="141.9961" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="103" x="27" y="145.6309">getCipDataIN(): List</text><ellipse cx="18" cy="154.9512" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="165" x="27" y="158.5859">setCipDataIN(List&lt;Byte&gt;): void</text><ellipse cx="18" cy="167.9063" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="190" x="27" y="171.541">getCipConnection(): CIPConnection</text><ellipse cx="18" cy="180.8613" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="212" x="27" y="184.4961">setCipConnection(CIPConnection): void</text><ellipse cx="18" cy="193.8164" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="188" x="27" y="197.4512">setDeviceDataType(DataType): void</text><ellipse cx="18" cy="206.7715" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="107" x="27" y="210.4063">pushData(List): void</text><ellipse cx="18" cy="219.7266" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="27" y="223.3613">pullData(): List</text></a><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="182" x="35" y="246.3496">UMLDoclet 2.0.9, PlantUML 1.2020.08</text><!--MD5=[766eacadd6917fcc418527ae290b5dc8]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>CIPDevice\n<size:10>com.cohorte.ethernetip.cipconnector" as com.cohorte.ethernetip.cipconnector.CIPDevice [[CIPDevice.html]] {
+        -deviceIdentity: CipIdentityItem
+        -cipDataIN: CIPData
+        -cipDataOUT: CIPData
+        -cipConnection: CIPConnection
+        +getDeviceIdentity(): CipIdentityItem
+        +setDeviceIdentity(CipIdentityItem): void
+        +getCipDataIN(): List
+        +setCipDataIN(List<Byte>): void
+        +getCipConnection(): CIPConnection
+        +setCipConnection(CIPConnection): void
+        +setDeviceDataType(DataType): void
+        +pushData(List): void
+        +pullData(): List
+    }
+
+    center footer UMLDoclet 2.0.9, PlantUML 1.2020.08
+@enduml
+
+PlantUML version 1.2020.08(Sun Apr 26 16:08:22 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14.0.2+12-46
+Operating System: Mac OS X
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>

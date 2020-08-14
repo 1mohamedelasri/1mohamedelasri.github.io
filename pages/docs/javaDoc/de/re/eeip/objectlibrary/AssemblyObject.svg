@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="143px" preserveAspectRatio="none" style="width:197px;height:143px;" version="1.1" viewBox="0 0 197 143" width="197px" zoomAndPan="magnify"><defs><filter height="300%" id="f1odceqwtyrihl" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[7d54ddffc5d7c40a2aa0ef26763a316f]
+class de.re.eeip.objectlibrary.AssemblyObject--><a href="AssemblyObject.html" target="_top" title="AssemblyObject.html" xlink:actuate="onRequest" xlink:href="AssemblyObject.html" xlink:show="new" xlink:title="AssemblyObject.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f1odceqwtyrihl)" height="106.0859" id="de.re.eeip.objectlibrary.AssemblyObject" style="stroke: #A80036; stroke-width: 1.5;" width="175" x="7" y="7"/><ellipse cx="35.5" cy="26.1328" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M37.9731,32.2759 Q37.3921,32.5747 36.7529,32.7241 Q36.1138,32.8735 35.4082,32.8735 Q32.9014,32.8735 31.5815,31.2217 Q30.2617,29.5698 30.2617,26.4487 Q30.2617,23.3193 31.5815,21.6675 Q32.9014,20.0156 35.4082,20.0156 Q36.1138,20.0156 36.7612,20.165 Q37.4087,20.3145 37.9731,20.6133 L37.9731,23.3359 Q37.3423,22.7549 36.7488,22.4851 Q36.1553,22.2153 35.5244,22.2153 Q34.1797,22.2153 33.4949,23.282 Q32.8101,24.3486 32.8101,26.4487 Q32.8101,28.5405 33.4949,29.6072 Q34.1797,30.6738 35.5244,30.6738 Q36.1553,30.6738 36.7488,30.4041 Q37.3423,30.1343 37.9731,29.5532 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="54.5" y="25.5352">AssemblyObject</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="113" x="52.5" y="38.1563">de.re.eeip.objectlibrary</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="181" y1="45.2656" y2="45.2656"/><ellipse cx="18" cy="56.2656" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="111" x="27" y="59.9004">eeipClient: EEIPClient</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="181" y1="66.2207" y2="66.2207"/><ellipse cx="18" cy="77.2207" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="147" x="27" y="80.8555">AssemblyObject(EEIPClient)</text><ellipse cx="18" cy="90.1758" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="121" x="27" y="93.8105">getInstance(int): byte[]</text><ellipse cx="18" cy="103.1309" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="149" x="27" y="106.7656">setInstance(int, byte[]): void</text></a><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="182" x="3.5" y="129.7539">UMLDoclet 2.0.9, PlantUML 1.2020.08</text><!--MD5=[0b13dddb7502d8ffb116950a0125f5b0]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>AssemblyObject\n<size:10>de.re.eeip.objectlibrary" as de.re.eeip.objectlibrary.AssemblyObject [[AssemblyObject.html]] {
+        +eeipClient: EEIPClient
+        +AssemblyObject(EEIPClient)
+        +getInstance(int): byte[]
+        +setInstance(int, byte[]): void
+    }
+
+    center footer UMLDoclet 2.0.9, PlantUML 1.2020.08
+@enduml
+
+PlantUML version 1.2020.08(Sun Apr 26 16:08:22 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14.0.2+12-46
+Operating System: Mac OS X
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>
